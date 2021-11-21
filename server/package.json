@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Mate Csornyei <mate@csornyei.com> (https://csornyei.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphiql": "^1.5.1",
+    "graphql": "^15.7.2",
+    "join-monster": "^3.0.4",
+    "pg": "^8.7.1"
+  }
+}
